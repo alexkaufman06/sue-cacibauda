@@ -48,14 +48,14 @@ if(isset($_POST['email']))
     {
         $this_error = 'Please enter a valid name.';
         $error_message .= ($error_message == "") ? $this_error : "<br/>".$this_error;
-    }        
+    }
 
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
     if (!preg_match($email_exp,$email))
     {
         $this_error = 'Please enter a valid email address.';
         $error_message .= ($error_message == "") ? $this_error : "<br/>".$this_error;
-    } 
+    }
 
     // if there are validation errors
     if(strlen($error_message) > 0)
@@ -85,10 +85,10 @@ if(isset($_POST['email']))
     {
         echo 'success';
     }
-    else 
+    else
     {
         echo 'error';
-        die();        
+        die();
     }
 }
 else
