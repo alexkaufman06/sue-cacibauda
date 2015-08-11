@@ -1,1 +1,7 @@
-/* It is recommended to place all your extra/additional CSS rules here */
+a:visited {
+  color: rgba(255,255,255,0.8);
+}
+
+a:active {
+  color: rgba(255,255,255,0.8);
+}
