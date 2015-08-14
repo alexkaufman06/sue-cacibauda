@@ -5,3 +5,27 @@ a:visited {
 a:active {
   color: rgba(255,255,255,0.8);
 }
+
+div {
+  font-family: 'Petit Formal Script', cursive;
+}
+
+h1 {
+  font-family: 'Petit Formal Script', cursive;
+}
+
+h5 {
+  font-family: 'Petit Formal Script', cursive;
+}
+
+#left-sidebar #main-menu {
+  font-family: 'Petit Formal Script', cursive;
+}
+
+#main-content .contact-details {
+  font-family: 'Petit Formal Script', cursive;
+}
+
+.btn {
+  font-family: 'Petit Formal Script', cursive;
+}
