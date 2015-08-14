@@ -26,6 +26,10 @@ h5 {
   font-family: 'Petit Formal Script', cursive;
 }
 
+#left-sidebar #main-menu > li.menu-item.active > * {
+  font-family: 'Petit Formal Script', cursive;
+}
+
 .btn {
   font-family: 'Petit Formal Script', cursive;
 }
