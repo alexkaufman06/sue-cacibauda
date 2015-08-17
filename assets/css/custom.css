@@ -18,11 +18,23 @@ h5 {
   font-family: 'Petit Formal Script', cursive;
 }
 
+p {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+li {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 #left-sidebar #main-menu {
   font-family: 'Petit Formal Script', cursive;
 }
 
 #main-content .contact-details {
+  font-family: 'Petit Formal Script', cursive;
+}
+
+#left-sidebar #main-menu > li {
   font-family: 'Petit Formal Script', cursive;
 }
 
